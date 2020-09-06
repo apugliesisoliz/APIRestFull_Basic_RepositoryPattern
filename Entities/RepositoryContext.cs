@@ -13,5 +13,11 @@ namespace Entities
         {
         }
         public DbSet<User> Users { get; set; }
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<User>(entity => {
+                entity.HasIndex(e => e.UserId).IsUnique();
+            });
+        }
     }
 }

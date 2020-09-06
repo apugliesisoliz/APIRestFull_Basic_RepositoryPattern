@@ -350,3 +350,4 @@ MigrationBackup/
 .ionide/
 
 APIRestFull_Basic_RepositoryPattern/Logs/
+Entities/Migrations/

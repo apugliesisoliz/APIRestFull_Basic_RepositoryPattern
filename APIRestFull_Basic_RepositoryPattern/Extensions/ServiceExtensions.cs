@@ -39,6 +39,7 @@ namespace APIRestFull_Basic_RepositoryPattern.Extensions
         {
             var connectionString = config["mysqlconnection:connectionString"];
             services.AddDbContext<RepositoryContext>(o => o.UseMySql(connectionString));
+            services.AddMvc();
         }
         public static void ConfigureRepositoryWrapper(this IServiceCollection services)
         {
