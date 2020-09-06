@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-Es un proyecto orientado a la creacion de una estructura base para el desarrollo de API RestFull.
+Es un proyecto orientado a la creacion de una estructura base para proyecto desarrollo de API RestFull con ASP.Net Core Web Project (API).
 # New Features!
 
   - 05/09/2020 Creacion proyecto base con flujo de usuarios.
