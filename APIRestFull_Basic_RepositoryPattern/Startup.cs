@@ -32,6 +32,8 @@ namespace APIRestFull_Basic_RepositoryPattern
             services.ConfigureCors();
             services.ConfigureIISIntegration();
             services.ConfigureLoggerService();
+            services.ConfigureMySqlContext(Configuration);
+            services.ConfigureRepositoryWrapper();
             services.AddControllers();
         }
 
